@@ -49,6 +49,10 @@ Primero se crea el archivo
 Se realiza el hash
 <img src="images/hash-con-sha.png" alt="hash" width="500">
 
+Se verifica el hash
+
+<img src="images/resultado-hash.png.png" alt="resultado hash" width="500">
+
 Se crean las llaves
 <img src="images/creacion-llaves(1).jpeg" alt="Creación llaves" width="500">
 
