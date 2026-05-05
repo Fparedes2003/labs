@@ -45,6 +45,6 @@ DESARROLLO DEL LABORATORIO
 
 Primero se crea el archivo
 
-images/Creacion-del-archivo.png
+(images/Creacion-del-archivo.png)
 
 
