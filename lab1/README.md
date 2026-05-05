@@ -43,8 +43,6 @@ Herramientas
 
 DESARROLLO DEL LABORATORIO
 
-Primero se crea el archivo
-
-(images/Creacion-del-archivo.png)
+[Creacion del archivo](images/Creacion-del-archivo.png)
 
 
