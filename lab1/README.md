@@ -51,7 +51,7 @@ Se realiza el hash
 
 Se verifica el hash
 
-<img src="images/resultado-hash.png.png" alt="resultado hash" width="500">
+<img src="images/resultado-hash.png" alt="resultado hash" width="500">
 
 Se crean las llaves
 <img src="images/creacion-llaves(1).jpeg" alt="Creación llaves" width="500">
