@@ -43,6 +43,6 @@ Herramientas
 
 DESARROLLO DEL LABORATORIO
 
-[Creacion del archivo](images/Creacion-del-archivo.png)
+<img src="images/Creacion-del-archivo.png" alt="Creación del archivo" width="500">
 
 
