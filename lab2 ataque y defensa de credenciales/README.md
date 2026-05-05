@@ -50,4 +50,44 @@ Primero se realiza el ataque a la maquina victima con hydra
 
 <img src="images/ataque-hydra.png" alt="ataque hydra" width="500">
 
+Como se puede ver el ataque fue exitoso, pues se consiguio la contraseña y el usuario.
 
+Luego de esto para probar las credenciales ingresamos mediante el ssh
+
+<img src="images/conexion-desde-atacante.png" alt="conexion ssh" width="500">
+
+Las credenciales y el usuario son autenticos ya que el atacante ingreso.
+
+Luego de esto para reforzar la seguridad en la victima se instala google authenticator
+
+<img src="images/instalacion-google.png" alt="instlacion google" width="500">
+
+Cuando se instale google authenticator este brinda un qr por lo tanto se lee con el telefono
+
+<img src="images/qr.png" alt="se lee qr" width="500">
+
+Una vez leido desde el celular se mostrara un token el cual debe ingresarse
+
+<img src="images/inserta-token.png" alt="token" width="500">
+
+Luego de esto se puede proceder a terminar la configuracion de google authentication
+
+<img src="images/configuracion.png" alt="configuracion google" width="500">
+
+Se continua con la configuracion
+
+<img src="images/configuracion-2.png" alt="configuracion google.pam" width="500">
+
+Luego se configura el ssh 
+
+<img src="images/configuracion-archivo.png" alt="configuracion ssh" width="500">
+
+<img src="images/config-ssh.png" alt="config ssh2" width="500">
+
+Luego de se intentara loggear denuevo desde la maquina atacante y como se podra ver luego de la contraseña pide un codigo
+
+<img src="images/pide-codigo.png" alt="codigo" width="500">
+
+Para finalizar se realiza nuevamente un ataque con hydra y este fallara
+
+<img src="images/segundo-ataque-hydra.png" alt="token" width="500">
