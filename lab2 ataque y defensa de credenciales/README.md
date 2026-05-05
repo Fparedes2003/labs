@@ -48,5 +48,6 @@ DESARROLLO DEL LABORATORIO
 
 Primero se realiza el ataque a la maquina victima con hydra
 
+<img src="images/ataque-hydra.png" alt="ataque hydra" width="500">
 
 
