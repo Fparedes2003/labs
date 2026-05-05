@@ -43,9 +43,29 @@ Herramientas
 
 DESARROLLO DEL LABORATORIO
 
+Primero se crea el archivo
 <img src="images/Creacion-del-archivo.png" alt="Creación del archivo">
 
+Se realiza el hash
+<img src="images/hash-con-sha.png" alt="hash" width="500">
 
+Se crean las llaves
+<img src="images/creacion-llaves(1).jpeg" alt="Creación llaves" width="500">
+
+Se realiza la firma
+<img src="images/firma-archivo.jpeg" alt="Firma" width="500">
+
+Se verifica la firma y se puede ver que todo esta bien
+<img src="images/verificacion-firma.jpeg" alt="verificacion" width="500">
+
+Se simula el ataque cambiando un caracter
+<img src="images/modificacion-archivo2(1).png" alt="modificacion" width="500">
+
+Se genera el hash al archivo modificado y se puede apreciar que el ahsh cambia
+<img src="images/hash-modificado(1).jpeg" alt="hash modificado" width="500">
+
+Se vuelve a verificar la firma detectando que la firma falla
+<img src="images/firma-fallida(1).jpeg" alt="firma fallida" width="500">
 
 
 
