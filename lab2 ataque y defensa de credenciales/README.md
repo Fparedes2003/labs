@@ -80,7 +80,7 @@ Se continua con la configuracion
 
 Luego se configura el ssh 
 
-<img src="images/configuracion-archivo.png" alt="configuracion ssh" width="500">
+<img src="images/configuarcion-archivo.png" alt="configuracion ssh" width="500">
 
 <img src="images/config-ssh.png" alt="config ssh2" width="500">
 
