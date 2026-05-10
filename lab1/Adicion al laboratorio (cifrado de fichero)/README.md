@@ -16,3 +16,5 @@ HERRAMIENTAS
 Ubuntu server
 gpg 
 
+
+<img src="images/Creacion-del-archivo.png" alt="Creación del archivo">
