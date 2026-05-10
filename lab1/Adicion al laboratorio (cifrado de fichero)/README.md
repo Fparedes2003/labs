@@ -51,3 +51,6 @@ Cuando la contraseña es colocada con exito se pueden visualizar los datos corre
 
 <img src="images/10lectura-fichero-cifrado.png" alt="lectura de datos">
 
+Cuando se ingresa una contraseña incorrecta el fichero no podra ser leido
+
+<img src="images/11password-incorrecta.png" alt="lectura fallida">
