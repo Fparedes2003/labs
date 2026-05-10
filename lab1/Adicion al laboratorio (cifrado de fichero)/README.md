@@ -32,7 +32,7 @@ Luego de ingresar el comando para cifrar el fichero se nos pedira colocar una co
 <img src="images/5ingreso-password.png" alt="ingreso password">
 
 Mediante un ls se puede verificar que con el proceso de cifrado ya terminado al archivo que ciframos se le añade la extension .gpg
-<img src="images/6se-agrega-extension.png" alt="extension">
+<img src="images/6se-agrega-extensiongpg.png" alt="extension">
 
 Para verificar si el cifrado fue exitoso se intenta ingresar a el y leerlo con el comando cat
 <img src="images/7no-se-leen-datos.png" alt="intento de ingreso">
@@ -50,3 +50,4 @@ Con este comando ingresado se nos pedira la contraseña la cual definimos anteri
 Cuando la contraseña es colocada con exito se pueden visualizar los datos correctamente
 
 <img src="images/10lectura-fichero-cifrado.png" alt="lectura de datos">
+
