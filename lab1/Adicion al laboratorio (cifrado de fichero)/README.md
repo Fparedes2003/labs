@@ -17,5 +17,36 @@ Ubuntu server
 gpg 
 
 DESARROLLO
-
+Primero se crea el fichero con nano
 <img src="images/1creacion-fichero.png" alt="Creación del fichero">
+
+Luego se añaden los datos
+<img src="images/2datos-fichero.png" alt="Datos">
+
+Con los datos ya ingresados se realiza el cifrado con gpg el cual es una herramienta de cifrado que viene por defecto en ubuntu server, esta herramienta realiza el cifrado mediante algoritmos criptograficos 
+<img src="images/3cifrado.png" alt="Cifrado">
+
+Luego de ingresar el comando para cifrar el fichero se nos pedira colocar una contraseña
+<img src="images/4password.png" alt="password">
+
+<img src="images/5ingreso-password.png" alt="ingreso password">
+
+Mediante un ls se puede verificar que con el proceso de cifrado ya terminado al archivo que ciframos se le añade la extension .gpg
+<img src="images/6se-agrega-extension.png" alt="extension">
+
+Para verificar si el cifrado fue exitoso se intenta ingresar a el y leerlo con el comando cat
+<img src="images/7no-se-leen-datos.png" alt="intento de ingreso">
+
+Como se puede ver los datos no pueden ser leidos solo se pueden visualizar binarios por lo tanto, los datos estan protegidos.
+
+Para poder leer los datos se debe ingresar el siguiente comando
+
+<img src="images/8ver-fichero-cifrado.png" alt="lectura archivo cifrado">
+
+Con este comando ingresado se nos pedira la contraseña la cual definimos anteriormente
+
+<img src="images/9peticion-password.png" alt="password">
+
+Cuando la contraseña es colocada con exito se pueden visualizar los datos correctamente
+
+<img src="images/10lectura-fichero-cifrado.png" alt="lectura de datos">
