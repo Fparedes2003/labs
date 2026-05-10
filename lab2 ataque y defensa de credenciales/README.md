@@ -46,7 +46,7 @@ Este laboratorio se realiza con la finalidad de ver como funcionan los ataques c
 
 DESARROLLO DEL LABORATORIO
 
-Primero se realiza el ataque a la maquina victima con hydra
+Primero se realiza el ataque a la maquina victima con hydra para obtener las credenciales
 
 <img src="images/ataque-hydra.png" alt="ataque hydra" width="500">
 
