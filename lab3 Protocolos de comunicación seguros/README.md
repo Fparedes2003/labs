@@ -73,3 +73,20 @@ Para comenzar con la intercepcion del trafico se ingresan las credenciales y se 
 Una vez ingresadas las credenciales y enviado el formulario se ingresa nuevamente a wireshark para revisar si se han interceptado los datos
 
 <img src="images/10captura.png" alt="captura de datos">
+
+Como se puede ver en la imagen los datos fueron interceptados y las credenciales ingresadas se pueden visualizar en texto plano mediante wireshark
+
+Una forma de evitar de que los datos viajen en texto plano es implementar un tunel ssh
+
+<img src="images/11tunel.png" alt="tunel">
+
+Como se puede ver en el comando se abre un puerto local haciendo que el trafico pase al puerto 80 del servidor.
+
+Luego de esto entramos nuevamente a la pagina utilizando el puerto local 8080 y colocamos nuevamente las credenciales.
+<img src="images/12se-entra-con-cifrado.png" alt="cifrado">
+
+Cuando entramos nuevamente a wireshark, no se detecta nada mediante el metodo http post 
+<img src="images/13no-captura.png" alt="no captura">
+
+pero si cambiamos el filtro a ssh se puede visualizar desde wireshark las transmisiones que han sido realzadas estas de forma encriptada.
+<img src="images/14datos-protegidos.png" alt="datos protegidos">
