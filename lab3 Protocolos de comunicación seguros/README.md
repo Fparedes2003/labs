@@ -61,4 +61,15 @@ Rellenamos el index html
 Luego de esto en la maquina atacante iniciamos wireshark y cargamos la pagina
 <img src="images/6wireshark.png" alt="wireshark">
 
-Elegimos la interfaz eth0
+Elegimos la interfaz eth0 ya que es la interfaz que estan usando las maquinas en este momento
+<img src="images/7interfaz.png" alt="interfaz">
+
+Luego de elegir la interfaz se establece el filtro el cual es http con el metodo post
+<img src="images/8filtro.png" alt="filtro">
+
+Para comenzar con la intercepcion del trafico se ingresan las credenciales y se apreta el boton para que el navegador utilice el metodo post
+<img src="images/9credenciales.png" alt="Credenciales">
+
+Una vez ingresadas las credenciales y enviado el formulario se ingresa nuevamente a wireshark para revisar si se han interceptado los datos
+
+<img src="images/10captura.png" alt="captura de datos">
