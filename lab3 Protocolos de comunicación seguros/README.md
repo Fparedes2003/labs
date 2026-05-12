@@ -43,7 +43,7 @@ HERRAMIENTAS
 
 DESARROLLO
 
-Primero instalamos apache en la maquina victima para poder asi levatar la pagina
+Primero instalamos apache en la maquina victima para poder así levantar la pagina
 <img src="images/1apache-instalacion.png" alt="instalacion apache">
 
 Luego de esto se inicializa apache
@@ -61,13 +61,13 @@ Rellenamos el index html
 Luego de esto en la maquina atacante iniciamos wireshark y cargamos la pagina
 <img src="images/6wireshark.png" alt="wireshark">
 
-Elegimos la interfaz eth0 ya que es la interfaz que estan usando las maquinas en este momento
+Elegimos la interfaz eth0 ya que es la interfaz que están usando las maquinas en este momento
 <img src="images/7interfaz.png" alt="interfaz">
 
-Luego de elegir la interfaz se establece el filtro el cual es http con el metodo post
+Luego de elegir la interfaz se establece el filtro el cual es http con el método post
 <img src="images/8filtro.png" alt="filtro">
 
-Para comenzar con la intercepcion del trafico se ingresan las credenciales y se apreta el boton para que el navegador utilice el metodo post
+Para comenzar con la intercepción del trafico se ingresan las credenciales y se apreta el botón para que el navegador utilice el método post
 <img src="images/9credenciales.png" alt="Credenciales">
 
 Una vez ingresadas las credenciales y enviado el formulario se ingresa nuevamente a wireshark para revisar si se han interceptado los datos
@@ -76,7 +76,7 @@ Una vez ingresadas las credenciales y enviado el formulario se ingresa nuevament
 
 Como se puede ver en la imagen los datos fueron interceptados y las credenciales ingresadas se pueden visualizar en texto plano mediante wireshark
 
-Una forma de evitar de que los datos viajen en texto plano es implementar un tunel ssh
+Una forma de evitar de que los datos viajen en texto plano es implementar un túnel ssh
 
 <img src="images/11tunel.png" alt="tunel">
 
@@ -85,13 +85,13 @@ Como se puede ver en el comando se abre un puerto local haciendo que el trafico 
 Luego de esto entramos nuevamente a la pagina utilizando el puerto local 8080 y colocamos nuevamente las credenciales.
 <img src="images/12se-entra-con-cifrado.png" alt="cifrado">
 
-Cuando entramos nuevamente a wireshark, no se detecta nada mediante el metodo http post 
+Cuando entramos nuevamente a wireshark, no se detecta nada mediante el método http post 
 <img src="images/13no-captura.png" alt="no captura">
 
-pero si cambiamos el filtro a ssh se puede visualizar desde wireshark las transmisiones que han sido realzadas estan ahora de forma encriptada.
+pero si cambiamos el filtro a ssh se puede visualizar desde wireshark las transmisiones que han sido realzadas están ahora de forma encriptada.
 <img src="images/14datos-protegidos.png" alt="datos protegidos">
 
-Ahora se pasara a la cracion de llaves mediante el siguiente comando
+Ahora se pasara a la creación de llaves mediante el siguiente comando
 <img src="images/15creacion-llave.png" alt="creacion llave">
 
 <img src="images/16.png" alt="creacion llavve">
@@ -99,18 +99,18 @@ Ahora se pasara a la cracion de llaves mediante el siguiente comando
 la llave es añadida al servidor
 <img src="images/17.png" alt="llave añadida">
 
-Luego de que la llave sea añadida se configura el archivo ssh para desactivar la autenticacion mediante contraseña
+Luego de que la llave sea añadida se configura el archivo ssh para desactivar la autenticación mediante contraseña
 <img src="images/18configura-ssh.png" alt="desactivar autenticacion">
 
 <img src="images/19desactiva-password.png" alt="desactivar autenticacion">
 
-Una vez desactivada la opcion al realizar una conexion ssh ya no se nos pedira la contraseña solo la clave de la llave que creamos anteriormente.
+Una vez desactivada la opción al realizar una conexión ssh ya no se nos pedirá la contraseña solo la clave de la llave que creamos anteriormente.
 
 <img src="images/20pide-llave-no-password.png" alt="verificacion">
 
-Finalmente pasaremos a la etapa de implementacion del ssl.
+Finalmente pasaremos a la etapa de implementación del ssl.
 
-Para comenzar con la creacion del certificado ssl se ingresa el siguiente comando
+Para comenzar con la creación del certificado ssl se ingresa el siguiente comando
 
 <img src="images/21creacion-certificado.png" alt="creacion certificado">
 
@@ -129,5 +129,5 @@ Con estas configuraciones ya realizadas se puede ingresar al sitio mediante http
 
 <img src="images/27.png" alt="ingreso">
 
-Con este sitio que ya contiene una proteccion tls ingresamos las credenciales y abrimos wireshark para interceptarlas
+Con este sitio que ya contiene una protección tls ingresamos las credenciales y abrimos wireshark para interceptarlas
 <img src="images/22wireshark.png" alt="wireshark">
