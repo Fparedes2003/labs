@@ -91,4 +91,19 @@ Cuando entramos nuevamente a wireshark, no se detecta nada mediante el metodo ht
 pero si cambiamos el filtro a ssh se puede visualizar desde wireshark las transmisiones que han sido realzadas estan ahora de forma encriptada.
 <img src="images/14datos-protegidos.png" alt="datos protegidos">
 
+Ahora se pasara a la cracion de llaves mediante el siguiente comando
+<img src="images/15creacion-llave.png" alt="creacion llave">
 
+<img src="images/16.png" alt="creacion llavve">
+
+la llave es añadida al servidor
+<img src="images/17.png" alt="llave añadida">
+
+Luego de que la llave sea añadida se configura el archivo ssh para desactivar la autenticacion mediante contraseña
+<img src="images/18configura-ssh.png" alt="desactivar autenticacion">
+
+<img src="images/19desactiva-password.png" alt="desactivar autenticacion">
+
+Una vez desactivada la opcion al realizar una conexion ssh ya no se nos pedira la contraseña solo la clave de la llave que creamos anteriormente.
+
+<img src="images/20pide-llave-no-password.png" alt="verificacion">
