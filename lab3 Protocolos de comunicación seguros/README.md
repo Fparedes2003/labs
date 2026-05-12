@@ -112,4 +112,22 @@ Finalmente pasaremos a la etapa de implementacion del ssl.
 
 Para comenzar con la creacion del certificado ssl se ingresa el siguiente comando
 
-<img src="images/.png" alt="creacion certificado">
+<img src="images/21creacion-certificado.png" alt="creacion certificado">
+
+Luego de para activar ssl en apache se ingresan los siguientes comandos 
+<img src="images/22habilita-ssl-apache.png" alt="activacion">
+
+<img src="images/23habilitar-https-por-defecto.png" alt="activacion">
+
+Luego de esto se deben realizar las siguientes configuraciones en el archivo ssl 
+<img src="images/24.png" alt="configuracion">
+
+<img src="images/25configuracion-ssl.png" alt="configuracion">
+
+Con estas configuraciones ya realizadas se puede ingresar al sitio mediante https de la siguiente manera
+<img src="images/26se-ingresa-con-https.png" alt="ingreso">
+
+<img src="images/27.png" alt="ingreso">
+
+Con este sitio que ya contiene una proteccion tls ingresamos las credenciales y abrimos wireshark para interceptarlas
+<img src="images/22wireshark.png" alt="wireshark">
