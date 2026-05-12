@@ -41,3 +41,24 @@ HERRAMIENTAS
 
 -Ubuntu Server
 
+DESARROLLO
+
+Primero instalamos apache en la maquina victima para poder asi levatar la pagina
+<img src="images/1apache-instalacion.png" alt="instalacion apache">
+
+Luego de esto se inicializa apache
+<img src="images/2inicializacion.png" alt="inicializacion">
+
+Una vez inicializado se verifica que el servicio este corriendo correctamente en la maquina
+<img src="images/3verificacion.png" alt="servicio corriendo">
+
+Cuando ya nos hayamos asegurado de que apache este corriendo entramos al archivo index.html para modificarlo
+<img src="images/4creacion.png" alt="creacion pagina">
+
+Rellenamos el index html
+<img src="images/5creacion-pag.png" alt="Creación pagina">
+
+Luego de esto en la maquina atacante iniciamos wireshark y cargamos la pagina
+<img src="images/6wireshark.png" alt="wireshark">
+
+Elegimos la interfaz eth0
