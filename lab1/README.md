@@ -33,7 +33,7 @@ También se realizara la creación llaves publicas y privadas y luego se firmara
 
 LA FINALIDAD DE ESTE LABORATORIO
 
-Entender como funciona los mecanismos de encriptacion o criptograficos mediante el uso de sha256 el cual es una funcion criptografica, la finalidad tambien incluye obtener una comprension acerca de las firmas digitales tanto publica como privada, esto con el fin de garantizar que la informacion no ha sido alterada y si lo fue enterarse de forma inmediata.
+Entender como funciona los mecanismos de encriptación o criptográficos mediante el uso de sha256 el cual es una función criptográfica, la finalidad también incluye obtener una comprensión acerca de las firmas digitales tanto publica como privada, esto con el fin de garantizar que la información no ha sido alterada y si lo fue enterarse de forma inmediata.
 
 Herramientas
 
@@ -65,7 +65,7 @@ Se verifica la firma y se puede ver que todo esta bien
 Se simula el ataque cambiando un caracter
 <img src="images/modificacion-archivo2 (1).png" alt="modificacion" width="500">
 
-Se genera el hash al archivo modificado y se puede apreciar que el ahsh cambia
+Se genera el hash al archivo modificado y se puede apreciar que el hash cambia
 <img src="images/hash-modificado (1).jpeg" alt="hash modificado" width="500">
 
 Se vuelve a verificar la firma detectando que la firma falla
