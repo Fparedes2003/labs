@@ -107,3 +107,9 @@ Luego de que la llave sea añadida se configura el archivo ssh para desactivar l
 Una vez desactivada la opcion al realizar una conexion ssh ya no se nos pedira la contraseña solo la clave de la llave que creamos anteriormente.
 
 <img src="images/20pide-llave-no-password.png" alt="verificacion">
+
+Finalmente pasaremos a la etapa de implementacion del ssl.
+
+Para comenzar con la creacion del certificado ssl se ingresa el siguiente comando
+
+<img src="images/.png" alt="creacion certificado">
