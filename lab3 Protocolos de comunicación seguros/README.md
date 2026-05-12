@@ -88,5 +88,7 @@ Luego de esto entramos nuevamente a la pagina utilizando el puerto local 8080 y 
 Cuando entramos nuevamente a wireshark, no se detecta nada mediante el metodo http post 
 <img src="images/13no-captura.png" alt="no captura">
 
-pero si cambiamos el filtro a ssh se puede visualizar desde wireshark las transmisiones que han sido realzadas estas de forma encriptada.
+pero si cambiamos el filtro a ssh se puede visualizar desde wireshark las transmisiones que han sido realzadas estan ahora de forma encriptada.
 <img src="images/14datos-protegidos.png" alt="datos protegidos">
+
+
