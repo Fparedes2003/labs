@@ -46,5 +46,13 @@ HERRAMIENTAS
 
 DESARROLLO
 
+Primero comenzamos haciendo un escaneo con la maquina atacante kali linux hacia la maquina victima desactualizada (ubuntu server) 
+<img src="images/1escaneo.png" alt="escaneo">
+
+Como se puede ver en la imagen el escaneo contiene los parametros de -sV para detectar los servicios que estan corriendo en la maquina y sus versiones correspondientes -O para detectar el sistema operativo y un script vuln para detectar las vulnerabilidades conocidas en los servicios que fueron detectados.
+
+Como se puede apreciar en la foto el escaneo fue un exito.
+
+
 
 
