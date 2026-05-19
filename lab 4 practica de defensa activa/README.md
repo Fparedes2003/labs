@@ -28,5 +28,17 @@ Tambien se investigaran al menos 3 CVE detectados en la maquina victima para pod
 
 LO QUE SE VERA
 
-Se lograran observar multiples servicios y sus vulnerabilidades, 
+Se lograran observar multiples servicios y sus vulnerabilidades, tambien se podra observar un escaneo de vulnerabilidades por parte de la maquina atacante la cual es una kali linux, esta hara el escaneo con nmap, configuraciones para el proceso de remediacion en el sistema mediante aplicacion de parches o actualizaciones.
+
+FINALIDAD
+
+Aprender acerca de la importancia sobre como funciona el proceso de remediacion o fortalecimiento de un equipo para evitar posibles ataques inminentes, estas medidas son importantes para disminuir los riesgos de seguridad y mantener el equipo (ubuntu server) actualizado al dia.
+
+HERRAMIENTAS
+
+Ubuntu server
+Kali Linux
+
+
+
 
