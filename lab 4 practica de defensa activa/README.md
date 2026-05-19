@@ -24,7 +24,7 @@ Habilidad ganada: Capacidad de priorizar la remediación basada en el impacto or
 
 Se utilizara una maquina ubuntu server desactualizada con el objetivo de identificar las vulnerabilidades que esta presenta, para posteriormente realizar una remediacion aplicando parches de seguridad.
 
-Tambien se investigaran al menos 3 CVE detectados en la maquina victima para poder verificar cuales son los peligros que este representa para el sistema.
+Tambien se investigaran al menos 3 CVE detectados en la maquina victima con la pagina nvd para poder verificar cuales son los peligros que este representa para el sistema.
 
 LO QUE SE VERA
 
@@ -36,9 +36,15 @@ Aprender acerca de la importancia sobre como funciona el proceso de remediacion 
 
 HERRAMIENTAS
 
-Ubuntu server
-Kali Linux
+-Ubuntu server
 
+-Kali Linux
+
+-nmap
+
+-nvd
+
+DESARROLLO
 
 
 
